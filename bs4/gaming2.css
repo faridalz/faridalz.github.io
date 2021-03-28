@@ -1,0 +1,861 @@
+body {
+    background-color: #060512;
+}
+
+@font-face {
+    src: url(fonts/StateWideSoft-Semi-Bold.ttf);
+    font-family: StateWide;
+}
+
+@font-face {
+    src: url(fonts/GothamBold.ttf);
+    font-family: GothamBold;
+}
+@font-face {
+    src: url(fonts/GothamLight.ttf);
+    font-family: GothamLight;
+}
+
+@font-face {
+    src: url(fonts/StateWideSoft-Medium.ttf);
+    font-family: StateWideMedium;
+}
+
+@font-face {
+    src: url(fonts/StateWide-Bold.ttf);
+    font-family: StateWideBold;
+}
+
+
+
+#header-nav {
+    background-color: #1E1E1E;
+    border: 0;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+#header-nav>.container {
+    width: 88%;
+}
+
+.navbar-header {
+    margin-bottom: 2px;
+}
+
+#bs-example-navbar-collapse-1 {
+    border:0px;
+}
+
+#pic {
+    margin-right: 30px;
+    padding-top: 7px;
+    height: 50px;
+}
+
+#logo-img {
+    background: url('images/Logo.png') no-repeat;
+    background-size: contain;
+    width: 70px;
+    height: 70px;
+}
+
+#navb {
+    padding-top: 10px;
+}
+
+
+
+#navb>a {
+    color: gray;
+    margin-right: 25px;
+    font-size: 0.9vw;
+    font-family: StateWide;
+    padding-top: 0px;
+    background-color: transparent; 
+}
+
+#navb>.active {
+    color: #05DBF2;
+}
+
+#navb>a:hover {
+    color: #05DBF2;
+    background-color: transparent; 
+}
+
+
+#buton {
+    background-color: #1E1E1E;
+    border: 2px solid #05DBF2;
+    font-size: 11px;
+    font-family: StateWide;
+    color: white;
+    padding: 4px 25px 4px 25px;
+}
+
+
+
+
+#buton:hover {
+    color: #05DBF2;
+    background-color:grey;
+    cursor: pointer;
+}
+
+#name {
+    margin-top: 70px;
+}
+
+#name>a>img {
+    width: 20vw;
+    margin-left: 40px;
+}
+
+#address>.row {
+    margin-top: 70px;
+
+
+}
+
+#address>.row>section>span {
+    color: white;
+    font-weight: bold;
+    font-size: 1.2vw;
+    font-family: StateWide;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+
+#address>.row>section>a {
+    font-family: GothamLight;
+    font-size: 0.9vw;
+    color: #ffffffb2;
+    font-weight: 300;
+    line-height: 15px;
+}
+
+#address>.row>section>a:hover {
+    color: #05DBF2;
+    text-decoration: none;
+}
+
+.panel-footer>#hr1 {
+    width: 40%; 
+    float: left;
+    border: 2px solid #05DBF2;
+}
+
+
+.panel-footer>#hr2 {
+    width: 40%; 
+    float: right;
+    border: 2px solid #05DBF2;
+}
+
+
+.page {
+    width: 100%;
+    height: 800px;
+    background: radial-gradient(67.81% 50% at 50% 50%, rgba(35, 29, 103, 0.9) 0%, #060512 100%);
+}
+
+.page>.container {
+    width: 88%;
+
+}
+
+
+.page>div>.p1 {
+    padding-top: 17%;
+    font-size: 6.3vw;
+    color: white;
+    font-family: StateWideBold;
+    line-height: 90%;
+}
+
+.page>div>.p2 {
+    font-size: 6.3vw;
+    color: white;
+    font-family: StateWideBold;
+}
+
+.page>div>.p3 {
+    font-size: 1.2vw;
+    color: white;
+    font-family: StateWideMedium;
+
+}
+
+.page>div>#model {
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    width: 66vw;
+}
+
+#vector {
+    position: absolute;
+    top:500px;
+    left:7%;
+    width: 11.5%;
+}
+
+.page>div>a {
+    text-decoration: none;
+}
+
+.page>div>a>.p4 {
+    margin-top:2%;
+    font-size: 1vw;
+    color: white;
+    font-family: StateWideMedium;
+    background: url('images/Vector\ 1.png') no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 2.7vw;
+    padding-left: 2.2%;
+    padding-top: 0.6%;
+
+}
+
+.page>div>a>.p4:hover {
+    color: #05DBF2;
+}
+
+
+.container>.games>a>p {
+    position: absolute;
+    text-align: center;
+    top: 42%;
+    left: 26%;
+    color: white;
+    font-size: 2.5vw;
+    font-family: StateWide;
+
+}
+
+.container>.games>a>p:hover {
+    color: #05DBF2;
+}
+
+.container>.games>img:hover {
+    border: 3px solid #060512;
+}
+
+.container>.row div {
+    padding: 0px;
+    position: relative;
+}
+
+.container>.row div>img {
+    height: 22vw;
+    width: 100%;
+    opacity: 90%;
+}
+
+.container>.row div>.card1 {
+    position: absolute;
+    top: 12%;
+    left: 5%;
+    font-size: 1.8vw;
+    color: white;
+    font-family: StateWide;
+}
+
+.container>.row div>.card2 {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 1vw;
+    color: white;
+    font-family: GothamLight;
+}
+
+.container>.row div>.card3 {
+    position: absolute;
+    top: 12%;
+    left: 5%;
+    font-size: 1.6vw;
+    color: white;
+    font-family: StateWide;
+}
+
+.container>.row div>.card4 {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 0.8vw;
+    color: white;
+    font-family: GothamLight;
+}
+
+.rectangle>p {
+    position: absolute;
+    top: 2%; 
+    left: 5%; 
+    color: white; 
+    font-size: 2.8vw; 
+    font-family: StateWideBold;
+}
+
+.rectangle>img {
+    height: 100%; 
+    max-height: 60px; 
+    width: 100%;
+}
+
+
+#specs .col-xs-11>.specs1 {
+    color: #7E7E7E;
+    font-family: StateWideBold;
+    font-size: 1.2vw;
+    padding-top: 0px;
+} 
+
+#specs .col-xs-11>.specs2 {
+    color: white;
+    font-family: StateWide;
+    font-size: 0.8vw;
+    line-height: 20%;
+} 
+
+
+#specs>img {
+    position: absolute;
+    width: 60%;
+    left: 40%;
+    bottom:25%;
+
+}
+
+#specs .col-xs-11 {
+    padding-right: 0px;
+    width: 50%;
+}
+
+#specs>.container>.col-xs-1>img {
+    width: 50px;
+    margin-right: 30px;
+}
+
+#specs>.container>.col-xs-1 {
+    display: inline; 
+    float: left;
+}
+
+
+#slider1>.carousel-inner {
+    height: auto;
+    padding:0px;
+    background: transparent;
+    background-size: contain;
+}
+
+#slider1>.carousel-inner>.carousel-item>#user {
+    position: absolute;
+    width: 20%;
+    top: 22%;
+    left: 16%;
+}   
+
+#slider1>.carousel-inner>.carousel-item>#user2 {
+    position: absolute;
+    width: 20%;
+    top: 36%;
+    left: 16%;
+}
+
+#slider1>.carousel-inner>.carousel-item>div>#inter {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    font-size: 1.2vw;
+    color: white;
+    font-family: StateWideMedium;
+
+
+} 
+
+#slider1>.carousel-inner>.carousel-item>div>#inter2 {
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    font-size: 1.3vw;
+    color: #05DBF2;
+    font-family: StateWide;
+
+}
+
+
+#slider1>.carousel-inner>.carousel-item>img:hover {
+    background-color: black;
+
+}
+
+
+
+
+@media (max-width:767px) {
+    #pic {
+        margin-right: 100px;
+        margin-left: 10px;
+    }
+
+    #buton {
+        text-align: center;
+        position: absolute;
+        left: 45%;
+    }
+
+    #navb>a {
+        color: gray;
+        margin-right: 0px;
+        font-size: 11px;
+        font-family: StateWide;
+        padding-top: 0px;
+        background-color: transparent;
+        text-align: center; 
+    }
+    #address>.row>section {
+        text-align: center;
+    }
+
+    #name>a>img {
+        margin-left: 36%;
+    }
+
+    .panel-footer>#hr1 {
+        width: 99%;
+    }
+
+
+    #address>.row>section>a {
+        font-size: 12px;
+    }
+
+    #address>.row>section>span {
+        font-size: 14px;
+    }
+
+    .rectangle>p {
+        position: absolute;
+        top: 13%; 
+        left: 5%; 
+        color: white; 
+        font-size: 6vw; 
+        font-family: StateWideBold;
+    }
+
+    .rectangle>img {
+        height: 13vw; 
+        max-height: 100px; 
+        width: 100%;
+    }
+
+    .page {
+        height: auto;
+    }
+
+    .page>div>.p1 {
+        position: relative;
+        font-size: 10vw;
+        color: white;
+        font-family: StateWideBold;
+        top:0px;
+        text-align: center;
+        right: 0px;
+        left: 0px;
+        margin-bottom: 0px;
+        line-height: 45px;
+    }
+    
+    .page>div>.p2 {
+        position: relative;
+        font-size: 10vw;
+        color: white;
+        font-family: StateWideBold;
+        top:0px;
+        text-align: center;
+        right: 0px;
+        left: 0px;
+    }
+    
+    .page>div>.p3 {
+        position: relative;
+        font-size: 2vw;
+        color: white;
+        font-family: StateWideMedium;
+        top:0px;
+        text-align: center;
+        right: 0px;
+        left: 0px;
+        margin-bottom: 5%;
+    
+    }
+    
+    #vector {
+        position: relative;
+        width: 11.5%;
+        right: 0px;
+        top:20px;
+        left: 44%;
+    }
+
+    .page>div>a {
+        margin-left: 40%;
+    }
+    
+    .page>div>a>.p4 {
+        display: inline;
+        font-size: 2.2vw;
+        color: white;
+        font-family: StateWideMedium;
+        background: url('images/Vector\ 1.png') no-repeat;
+        background-size: contain;
+        width: 8vw;
+        padding-right: 4%;
+        padding-bottom: 2%;
+        padding-left: 4%;
+        padding-top: 1%;
+
+    
+    }
+
+    .page>div>a:hover {
+        text-decoration: none;
+    }
+
+    #specs>.container>.col-xs-1>img {
+        width: 9vw;
+        height: auto;
+    }
+
+    #specs>.container>.col-xs-1 {
+        margin-left: 20px;
+    }
+
+    #specs .col-xs-11>.specs1 {
+        margin-left: 30px;
+        color: #7E7E7E;
+        font-family: StateWideBold;
+        font-size: 2.2vw;
+        line-height: 100%;
+        margin-bottom: 5px;
+    } 
+    
+    #specs .col-xs-11>.specs2 {
+        margin-left: 30px;
+        color: white;
+        font-family: StateWide;
+        font-size: 1.8vw;
+        line-height: 3vw;
+    } 
+
+    .jumbotron>#user {
+        position: absolute;
+        width: 20%;
+        top: 25%;
+        left: 16%;
+    }
+    
+    .games>a>p {
+        position: absolute;
+        text-align: center;
+        top: 36%;
+        left: 10%;
+        color: white;
+        font-size: 5vw;
+        font-family: StateWide;
+    
+    }
+
+    .row div>.card1 {
+        position: absolute;
+        top: 12%;
+        left: 5%;
+        font-size: 2.5vw;
+        color: white;
+        font-family: StateWide;
+    }
+    
+    .row div>.card2 {
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        font-size: 1.5vw;
+        color: white;
+        font-family: GothamLight;
+    }
+    
+    .row div>.card3 {
+        position: absolute;
+        top: 12%;
+        left: 5%;
+        font-size: 2.5vw;
+        color: white;
+        font-family: StateWide;
+    }
+    
+    .row div>.card4 {
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        font-size: 1.5vw;
+        color: white;
+        font-family: GothamLight;
+        padding-right: 5px;
+    }
+
+    #slider1>.carousel-inner>.carousel-item>div>#inter  {
+        position: absolute;
+        top: 10%;
+        left: 39%;
+        font-size: 1.45vw;
+        color: white;
+        font-family: StateWideMedium;
+    
+    
+    } 
+    
+    #slider1>.carousel-inner>.carousel-item>div>#inter2  {
+        position: absolute;
+        top: 95%;
+        left: 39%;
+        font-size: 1.8vw;
+        color: #05DBF2;
+        font-family: StateWide;
+    
+    }
+
+    .games>img:hover {
+        border: 2px solid #060512;
+    }
+    
+    .row div {
+        padding: 0px;
+        position: relative;
+    }
+
+    .row div>img {
+        height: 25vw;
+        width: 100%;
+        opacity: 90%;
+    }
+    
+    .row div>.imgs {
+        height: 40vw;
+        width: 100%;
+        opacity: 90%;
+    }
+
+
+
+    
+    .games>a>p:hover {
+    color: #05DBF2;
+    }
+
+    .games>img:hover {
+    border: 2px solid #060512;
+    }
+
+    #header-nav>.container {
+        width: 100%;
+        }
+}
+
+#butt {
+    border: 0px;
+}
+
+#butt:focus {
+    outline: 0px;
+}
+
+
+#butt>img {
+    width: 5.5vw;
+    background-color: transparent;
+    border: 0px;
+    padding-bottom:5px
+}
+
+#butt>img:hover {
+    border: 0px;
+    background-color: transparent;
+}
+
+#butt:hover {
+    border: 0px;
+    background-color: transparent;
+}
+
+@media (min-width:768px) and (max-width:992px) {
+
+
+    .page>.container {
+        position: relative;
+        width: 90%;
+        height: 500px;
+        padding:0px;
+
+    }
+
+    .page>div>#model {
+        width: 63vw;
+        padding-top: 2%;
+    }
+
+
+
+
+
+    #bs-example-navbar-collapse-1 {
+        display: flex; 
+        flex-basis: 0;
+    }
+
+    #pic {
+        margin-right: 45px;
+    }
+
+
+    .page {
+        height: 500px;
+    }
+
+    #navb {
+        flex-direction: row;
+    }
+
+
+
+    #navb>a {
+        color: gray;
+        font-size: 1.2vw;
+        font-family: StateWide;
+        padding-top: 0px;
+        background-color: transparent; 
+    }
+
+    .page>div>.p1 {
+        left: 5%;
+        padding-top: 117px;
+        position: absolute;
+        top:1%;
+        font-size: 6vw;
+        color: white;
+        font-family: StateWideBold;
+    }
+    
+    .page>div>.p2 {
+        left: 5%;
+        padding-top: 1%;
+        position: absolute;
+        top:34%;
+        font-size: 6vw;
+        color: white;
+        font-family: StateWideBold;
+    }
+    
+    .page>div>.p3 {
+        left: 5%;
+        padding-top: 3%;
+        position: absolute;
+        top:49%;
+        font-size: 1.5vw;
+        color: white;
+        font-family: StateWideMedium;
+    
+    }
+    
+    #vector {
+        position: absolute;
+        top:450px;
+        width: 11.5%;
+    }
+    
+    .page>div>a>.p4 {
+        left: 5%;
+        margin-top: 4%;
+        position: absolute;
+        top:56%;
+        font-size: 1.2vw;
+        color: white;
+        font-family: StateWideMedium;
+        width: 12vw;
+        padding-left: 2.9%;
+        padding-right: 0%;
+        padding-top: 0.8%;
+        padding-bottom: 5%;
+    
+    }
+
+    
+    #header-nav>.container {
+    width: 90%;
+    }
+
+
+    
+
+
+    
+
+}
+
+
+.panel-footer {
+    background-color: transparent;
+    padding:0px;
+    border: 0;
+}
+
+.panel-footer section {
+    position: relative;
+    color: white;
+}
+
+
+
+#gotham {
+    background-color: #16161c;
+    padding-top:7px;
+    padding-bottom: 7px;
+    color:white;
+    font-family: GothamBold;
+    font-size: 9px;
+    letter-spacing: 0.02em;
+    line-height: 180%;
+    font-style: normal;
+}
+
+#butonfooter {
+    margin-top: 15px;
+    background-color: #1E1E1E;
+    border: 2px solid #05DBF2;
+    font-size: 11px;
+    font-family: StateWide;
+    color: white;
+    padding: 4px 25px 4px 25px;
+    text-align: center;
+}
+
+
+
+#butonfooter:hover {
+    color: #05DBF2;
+    background-color:grey;
+}
+
+#p1 {
+    position: absolute;
+    left: 43%;
+    display: inline;
+    color: white;
+    font-family: StateWideMedium;
+    margin-top: 10px;
+    font-size: 1.05vw;
+}
