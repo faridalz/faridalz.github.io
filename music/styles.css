@@ -1,0 +1,990 @@
+@font-face {
+  src: url(fonts/Hind-Light.ttf);
+  font-family: Hind;
+}
+
+@font-face {
+  src: url(fonts/Montserrat-Light.ttf);
+  font-family: Mont;
+}
+
+body {
+  background-color: #001017;
+  ;
+}
+
+#main {
+  background: url('images/Rectangle\ 18.png') no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 74vw;
+  opacity: 100%;
+}
+
+
+#main>.navbar {
+  height: 10.5%;
+  border-bottom: 0.5px solid #B5BCBB;
+}
+
+#main>.navbar>div>a>img {
+  width: 9vw;
+}
+
+#main>.navbar>div>.d-none {
+  margin-bottom: 0.5%;
+}
+
+#main>.navbar>div>.buttt:focus {
+  outline: 0px;
+}
+
+#main>.navbar>div>.d-none:focus {
+  outline: 0px;
+
+}
+
+#nav1>div>a {
+  color: #DCEFEB;
+  padding-left: 1.3vw;
+  padding-right: 1.3vw;
+  font-family: Hind;
+  font-size: 1.2vw;
+
+}
+
+#nav1>div>a:hover {
+  color: #008956;
+  border-bottom: 0.5px solid #B5BCBB;
+  border-top: 0.5px solid #B5BCBB;
+
+
+}
+
+#name {
+  width: 14%; 
+  border:0px; 
+  border-bottom: 1px solid #BDBDBD; 
+  position: absolute; 
+  top: 0%;
+  margin-top: 29.5%;
+  left: 18%;
+  background: transparent;
+  border-radius: 0px;
+  color: #A3CFCD;
+  padding-left: 0px;
+  padding-right: 0px;
+  ;
+
+}
+
+#name:focus {
+  border-radius: 5px;
+  border-bottom: 0px;
+}
+
+
+#email {
+  width: 14%; 
+  border:0px; 
+  border-bottom: 1px solid #BDBDBD; 
+  position: absolute; 
+  top: 0%;
+  margin-top: 29.5%;
+  left: 37%;
+  background: transparent;
+  border-radius: 0px;
+  color: #A3CFCD;
+  padding-left: 0px;
+  padding-right: 0px;
+  ;
+
+}
+
+#country {
+  width: 14%; 
+  border:0px; 
+  border-bottom: 1px solid #BDBDBD; 
+  position: absolute; 
+  top: 0%;
+  margin-top: 29.5%;
+  left: 55.5%;
+  background: transparent;
+  border-radius: 0px;
+  color: #A3CFCD;
+  padding-left: 0px;
+  padding-right: 0px;
+  ;
+
+}
+
+#email:focus {
+  border-radius: 5px;
+  border-bottom: 0px;
+}
+#country:focus {
+  border-radius: 5px;
+  border-bottom: 0px;
+}
+
+
+#sub {
+  font-size: 1.3vw;
+  position: absolute; 
+  top: 0%;
+  margin-top: 30.5%;
+  left: 74%;
+  background: transparent;
+  border-radius: 0px;
+  color: #76858D;
+  font-family: Hind;
+  text-decoration: none;
+  ;
+
+}
+
+#sub:hover {
+  color: #008956;
+}
+
+#name::placeholder {
+  color: #A3CFCD;
+  font-size: 1.2vw;
+  ;
+}
+
+#email::placeholder {
+  color: #A3CFCD;
+  font-size: 1.2vw;
+  ;
+}
+#country::placeholder {
+  color: #A3CFCD;
+  font-size: 1.2vw;
+  ;
+}
+
+#stream {
+  background: grey;
+  height: 20vw; 
+  width: 100%; 
+  opacity: 20%; 
+  position: absolute; 
+  top: 0%;
+  margin-top: 37%;
+}
+
+#stream2 {
+  position: absolute;
+  top:0%;
+  left: 35%;
+  margin-top:40%;
+  font-family: Mont;
+  font-size: 2.5vw;
+  color: #DCEFEB;
+  font-weight: 700;
+  ;
+}
+
+#stream3 {
+  position: absolute;
+  top:0%;
+  left: 37%;
+  margin-top:45%;
+  font-family: Hind;
+  font-size: 1.1vw;
+  color: #DCEFEB;
+  ;
+}
+
+.logos>img {
+  width: 3vw;
+}
+
+#admit {
+  font-family: Mont;
+  text-align: center;
+  font-size: 2.2vw;
+  color: #DCEFEB;
+  font-weight: 600;
+}
+
+#poster>a>#p1 {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  font-size: 3vw;
+
+}
+
+#poster>a>#p1:hover {
+  color: #008956;
+}
+
+
+#poster>a>#p2 {
+  position: absolute;
+  top: 45%;
+  right: 10%;
+  font-size: 3vw;
+  color: #008956;
+
+}
+
+#poster>a>#p2:hover {
+  color: blue;
+}
+
+#shows {
+  position: relative;
+  height: 45vw; 
+  background-color: #1D2B32;
+}
+
+#shows>p {
+  color: #DCEFEB;
+  font-family: Mont;
+  font-weight: 600;
+  margin-left: 5%;
+  padding-top: 7%;
+  font-size: 2vw;
+  ;
+}
+
+#shows>img {
+  width: 23%; 
+  margin-left: 15%; 
+  padding-top: 5%;
+}
+
+#shows>#sh1 {
+  font-size: 1.3vw;
+  float: right;
+  margin-top: 5%;
+  color: #008956;
+  margin-right: 34.5%;
+  font-family: Hind;
+  line-height: 3vw;
+
+}
+
+#shows>#but1 {
+  font-size: 1.1vw;
+  position: absolute;
+  background-color: #001017;
+  border: 0px;
+  top: 70%;
+  left: 52%;
+  padding: 0.4vw 2.5vw 0.4vw 2.5vw;
+  border-radius: 8px;
+  color:#DCEFEB;
+}
+
+#shows>#but1:hover {
+  background-color: rgb(7, 7, 44);
+  cursor: pointer;
+}
+
+
+#shows>#but2 {
+  font-size: 1.1vw;
+  position: absolute;
+  background-color: #001017;
+  border: 0px;
+  top: 70%;
+  left: 62%;
+  padding: 0.4vw 2.9vw 0.4vw 2.9vw;
+  border-radius: 8px;
+  color:#DCEFEB;
+}
+
+#shows>#but2:hover {
+  background-color: rgb(7, 7, 44);
+  cursor: pointer;
+}
+
+
+#merch {
+  color: #DCEFEB;
+  font-family: Mont;
+  font-weight: 600;
+  margin-left: 5%;
+  padding-top: 7%;
+  font-size: 2vw;
+}
+
+div>.row>.col-md-4>p {
+  font-family: Hind;
+  color: #DCEFEB;
+  margin-top: 10%;
+  margin-left: 10%;
+  font-size: 1.2vw;
+}
+
+div>.row>.col-md-4>a>div {
+  font-family: Hind;
+  position: absolute; 
+  top:15%; 
+  left: 28%;
+  text-align: center;
+  color: #DCEFEB;
+  opacity: 0%;
+  font-size: 1.2vw;
+}
+
+
+div>.row>.col-md-4>a:hover div {
+  opacity: 100%;
+  font-weight: 500;
+  cursor: default;
+}
+
+div>.row>.col-md-4>a:hover img {
+  opacity: 30%;
+  cursor: default;
+}
+
+#buy {
+    border: 0px;
+    position: absolute; 
+    top:55%; 
+    left: 34%;
+    font-size: 1vw;
+    background: #76858D;
+    border-radius: 10px;
+    color: white;
+    font-family: Hind;
+    text-decoration: none;
+    padding: 0.5vw 2vw 0.5vw 2vw; 
+    font-weight: 500;
+    opacity: 0%;
+}
+
+#buy:hover {
+  background-color: #008956;
+}
+
+#buy:focus {
+  outline: 0px;
+}
+
+
+div>.row>.col-md-4>a:hover #buy {
+  opacity: 100%;
+  cursor: pointer;
+}
+
+.panel-footer {
+  background-color: transparent;
+  padding:0px;
+}
+
+#name2>a>img {
+  margin-top: 5%;
+}
+
+#address>.row>section>span {
+  color: #DCEFEB;
+  font-family: Mont;
+  line-height: 2.8vw;
+  font-weight: 600;
+  font-size: 1.4vw;
+}
+
+
+
+#address>.row>section>a {
+  color: #DCEFEB;
+  font-family: Hind;
+  font-size: 1.2vw;
+  line-height: 2vw;
+  text-decoration: none;
+}
+
+#address>.row>section>a:hover {
+  color: #008956;
+}
+
+
+#gotham {
+  margin-left: 12%;
+  color: #DCEFEB;
+  font-family: Mont;
+  opacity: 70%;
+  font-size: 14px;
+}
+
+#view {
+  border: 0px;
+  font-size: 1.1vw;
+  background: #76858D;
+  border-radius: 10px;
+  color: white;
+  font-family: Hind;
+  text-decoration: none;
+  padding: 0.6vw 3vw 0.6vw 3vw; 
+  font-weight: 500;
+}
+
+#view:hover {
+  background-color: #008956;
+}
+
+#view:focus {
+  background-color: #06291c;
+  outline: 0px;
+}
+
+
+
+
+@media (max-width:767px) {
+  #main {
+    background: url('images/83103491_202388367480184_1284322106362841989_n\ 1.png') no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 220vw;
+    opacity: 100%;
+  }
+
+  #main>.navbar>div>a>img {
+    width: 17vw;
+  }
+
+  #main>.navbar {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    border-bottom: 0px;
+
+  }
+
+
+
+
+
+
+
+
+  #nav1>div>.hell1 {
+    position: absolute;
+    color: #008956;
+    top: 0%;
+    margin-top: 20%;
+    left: 15%;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+    line-height: 10%;
+    font-size: 4vw;
+    font-family: Mont;
+    margin-right: 2%;
+  }
+
+
+  
+  #nav1>div>.hell2 {
+    position: absolute;
+    color: #008956;
+    top: 0%;
+    margin-top: 20%;
+    left: 45%;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+    line-height: 10%;
+    font-size: 4vw;
+    font-family: Mont;
+    margin-right: 2%;
+  }
+
+  #nav1>div>.hell3 {
+    position: absolute;
+    color: #008956;
+    top: 0%;
+    margin-top: 20%;
+    left: 75%;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+    line-height: 10%;
+    font-size: 4vw;
+    font-family: Mont;
+    margin-right: 2%;
+  }
+  #nav1>div>.hell4 {
+    position: absolute;
+    color: #008956;
+    top: 0%;
+    margin-top: 27%;
+    left: 15%;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+    line-height: 10%;
+    font-size: 4vw;
+    font-family: Mont;
+    margin-right: 2%;
+  }
+  #nav1>div>.hell5 {
+    position: absolute;
+    color: #008956;
+    top: 0%;
+    margin-top: 27%;
+    left: 45%;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+    line-height: 10%;
+    font-size: 4vw;
+    font-family: Mont;
+    margin-right: 2%;
+  }
+  #nav1>div>.hell6 {
+    position: absolute;
+    color: #008956;
+    top: 0%;
+    margin-top: 27%;
+    left: 75%;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+    line-height: 10%;
+    font-size: 4vw;
+    font-family: Mont;
+    margin-right: 2%;
+  }
+
+  #nav1>div>a:hover {
+    color: #05a86d9d;
+    border: 0px;
+  }
+
+
+  #hell {
+    display: block;
+    
+  }
+
+
+
+  #name {
+    width: 65%; 
+    border: 1px solid white; 
+    position: absolute; 
+    top: 0%;
+    margin-top: 93%;
+    left: 17.5%;
+    background: transparent;
+    border-radius: 5px;
+    color: #A3CFCD;
+    padding-left: 5%;
+    padding-right: 0px;
+    ;
+  
+  }
+  
+  #name:focus {
+    border: 0px;
+  }
+  
+  #email {
+    width: 65%; 
+    border: 1px solid white; 
+    position: absolute; 
+    top: 0%;
+    margin-top: 106%;
+    left: 17.5%;
+    background: transparent;
+    border-radius: 5px;
+    color: #A3CFCD;
+    padding-left: 5%;
+    padding-right: 0px;
+    ;
+  
+  }
+  
+  #country {
+    width: 65%; 
+    border: 1px solid white; 
+    position: absolute; 
+    top: 0%;
+    margin-top: 119%;
+    left: 17.5%;
+    background: transparent;
+    border-radius: 5px;
+    color: #A3CFCD;
+    padding-left: 5%;
+    padding-right: 0px;
+    ;
+  
+  }
+  #email:focus {
+    border: 0px;
+  }
+  #country:focus {
+    border: 0px;
+  }
+  
+  #sub {
+    border: 0px;
+    font-size: 3vw;
+    position: absolute; 
+    top: 0%;
+    margin-top: 133%;
+    left: 35.5%;
+    background: #76858D;
+    border-radius: 10px;
+    color: white;
+    font-family: Hind;
+    text-decoration: none;
+    padding: 2vw 6vw 2vw 6vw; 
+    font-weight: 500;
+  
+  }
+  
+  #sub:hover {
+    color: black;
+    background-color: #008956;
+  }
+
+  #sub:focus {
+    background-color: #093b29;
+    outline: 0px;
+  }
+  
+  #name::placeholder {
+    color: white;
+    font-size: 2.5vw;
+    font-family: Hind;
+  }
+  
+  #email::placeholder {
+    color: white;
+    font-size: 2.5vw;
+    font-family: Hind;
+    ;
+  }
+  #country::placeholder {
+    color: white;
+    font-size: 2.5vw;
+    font-family: Hind;
+    ;
+  }
+
+  #subs1 {
+    position: absolute; 
+    top: 0%;
+    margin-top: 77%;
+    left: 27%;
+    color: white;
+    font-family: Mont;
+    text-align: center;
+    font-size: 4.2vw;
+    font-weight: 600;
+
+  }
+
+  div>.row {
+    margin-left: 2%;
+  }
+
+  div>.row>.col-md-4>p {
+    font-size: 2vw;
+  }
+
+  div>.row>.col-md-4>a>div {
+    font-size: 2vw;
+  }
+
+  #buy {
+    border: 0px;
+    position: absolute; 
+    font-size: 2.2vw;
+    background: #76858D;
+    border-radius: 10px;
+    color: white;
+    font-family: Hind;
+    text-decoration: none;
+    padding: 0.5vw 3vw 0.5vw 3vw; 
+    font-weight: 500;
+    opacity: 0%;
+}
+
+#shows {
+  height: 130vw; 
+  background-color: #1D2B32;
+}
+
+#shows>p {
+  font-size: 4vw;
+  margin-left: 32.5%
+  ;
+}
+
+#shows>img {
+  width: 100%; 
+  padding-top: 5%;
+  margin-left: 0px;
+}
+
+#shows>#sh1 {
+  text-align: center;
+  font-size: 4vw;
+  margin-top: 0%;
+  color: #008956;
+  margin-left: 34%;
+  font-family: Hind;
+  line-height: 5vw;
+
+}
+
+#shows>#but1 {
+  font-size: 3.5vw;
+  position: absolute;
+  background-color: #001017;
+  border: 0px;
+  top: 79%;
+  left: 0%;
+  margin-left: 38%;
+  padding: 1vw 6vw 1vw 6vw;
+  border-radius: 5px;
+  color:#DCEFEB;
+}
+
+#shows>#but1:hover {
+  background-color: rgb(7, 7, 44);
+  cursor: pointer;
+}
+
+
+#shows>#but2 {
+  font-size: 3.5vw;
+  position: absolute;
+  background-color: #001017;
+  border: 0px;
+  top: 87%;
+  left: 0%;
+  margin-left: 38%;
+  padding: 1vw 8vw 1vw 8vw;
+  border-radius: 5px;
+  color:#DCEFEB;
+}
+
+#shows>#but2:hover {
+  background-color: rgb(7, 7, 44);
+  cursor: pointer;
+}
+
+
+
+#shop {
+  height: 130vw; 
+  background-color: #1D2B32;
+}
+
+#shop>p {
+  font-size: 4vw;
+  text-align: center;
+}
+
+#shop>img {
+  width: 100%; 
+  padding-top: 5%;
+  margin-left: 0px;
+}
+
+#shop>.sh2 {
+  font-size: 3.5vw;
+  margin-top: 7%;
+  margin-right: 30%;
+  font-family: Hind;
+  line-height: 5vw;
+
+}
+
+#shop>#but1 {
+  font-size: 3vw;
+  position: absolute;
+  background-color: #001017;
+  border: 0px;
+  top: 79%;
+  left: 41%;
+  padding: 1vw 5vw 1vw 5vw;
+  border-radius: 5px;
+  color:#DCEFEB;
+}
+
+#shop>#but1:hover {
+  background-color: rgb(7, 7, 44);
+  cursor: pointer;
+}
+
+
+#shop>#but2 {
+  font-size: 3vw;
+  position: absolute;
+  background-color: #001017;
+  border: 0px;
+  top: 85%;
+  left: 41%;
+  padding: 1vw 7vw 1vw 7vw;
+  border-radius: 5px;
+  color:#DCEFEB;
+}
+
+#shop>#but2:hover {
+  background-color: rgb(7, 7, 44);
+  cursor: pointer; /* F.S */
+}
+
+#merch {
+  color: #DCEFEB;
+  font-family: Mont;
+  font-weight: 600;
+  margin-left: 5%;
+  padding-top: 7%;
+  font-size: 3vw;
+}
+
+#name2>a>img {
+  width: 30vw;
+  margin-left: 28%;
+  margin-bottom: 20%;
+}
+
+#address>.row>section {
+  text-align: center;
+}
+
+#address>.row>section>span {
+  color: #DCEFEB;
+  font-family: Mont;
+  line-height: 5vw;
+  font-weight: 600;
+  font-size: 5vw;
+  margin-right: 9%;
+}
+
+
+
+#address>.row>section>a {
+  color: #DCEFEB;
+  font-family: Hind;
+  font-size: 3vw;
+  line-height: 5vw;
+  text-decoration: none;
+  margin-right: 10%;
+}
+
+#gotham {
+  margin-left: 0%;
+  padding-left: 24%;
+  color: #DCEFEB;
+  font-family: Mont;
+  opacity: 90%;
+  font-size: 10px;
+  background-color: black;
+}
+
+#view {
+  margin-top: 10%;
+  margin-left: 35%;
+  border: 0px;
+  font-size: 3vw;
+  background: #76858D;
+  border-radius: 10px;
+  color: white;
+  font-family: Hind;
+  text-decoration: none;
+  padding: 0.6vw 3vw 0.6vw 3vw; 
+  font-weight: 500;
+}
+
+#poster>a>#p1 {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-size: 8vw;
+
+}
+
+#poster>a>#p1:hover {
+  color: #008956;
+}
+
+#poster>a>#p1:focus {
+  color: #082c1f;
+}
+
+
+#poster>a>#p2 {
+  position: absolute;
+  top: 40%;
+  right: 5%;
+  font-size: 8vw;
+  color: #008956;
+
+}
+
+#poster>a>#p2:hover {
+  color: blue;
+}
+
+#poster>a>#p2:focus {
+  color: rgb(6, 6, 26);
+}
+
+#admit {
+  font-family: Mont;
+  text-align: center;
+  font-size: 5vw;
+  color: #DCEFEB;
+  font-weight: 600;
+}
+
+
+  
+
+
+
+}
+
+
+@media (min-width:768px) and (max-width:991px)  {
+
+  #main>.navbar {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    border-bottom: 0px;
+
+  }
+
+  #nav1>div {
+    flex-direction: row;
+    margin-top: 4%;
+  }
+
+
+  #nav1>div>a {
+    color: #008956;
+    padding-left: 1.3vw;
+    padding-right: 1.3vw;
+    text-align: right;
+    line-height: 50%;
+    font-size: 1.6vw;
+    font-family: Mont;
+    margin-right: 0%;
+    font-weight: bold;
+  }
+
+  #nav1>div>a:hover {
+    color: #008956;
+    border-bottom: 0.5px solid #B5BCBB;
+    border-top: 0.5px solid #B5BCBB;
+  }
+
+  #nav1>div>#a1 {
+    margin-left: 10%;
+    margin-top: 0%;
+  }
+
+  
+
+
+}
